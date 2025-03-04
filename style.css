@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.cv-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header .contact h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1em;
+}
+
+header a {
+  text-decoration: none;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #333;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+.job ul,
+.degree ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job ul li,
+.degree p {
+  margin: 5px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li {
+  margin: 5px 0;
+}
+
+.skills strong {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.9em;
+}
+
+footer p {
+  margin-top: 20px;
+}
